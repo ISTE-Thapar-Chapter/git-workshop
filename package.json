@@ -1,0 +1,35 @@
+{
+  "name": "iste-git-workshop",
+  "version": "1.0.0",
+  "description": "A template repo provided in git workshop held at Thapar institute, Patial by iste thapar chapter.",
+  "keywords": [
+    "Iste",
+    "thapar",
+    "Git",
+    "Github",
+    "Deployment",
+    "Nodejs",
+    "Express"
+  ],
+  "homepage": "https://github.com/ISTE-Thapar-Chapter/git-workshop#readme",
+  "bugs": {
+    "url": "https://github.com/ISTE-Thapar-Chapter/git-workshop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ISTE-Thapar-Chapter/git-workshop.git"
+  },
+  "license": "ISC",
+  "author": "@iste-thapar-chapter",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
